@@ -1,0 +1,99 @@
+ Starting migrations...
+======================
+> Network name:    'ropsten'
+> Network id:      3
+> Block gas limit: 8000000 (0x7a1200)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0x40133cfe75f31d09727e63717552c4b4e3aafdd8be06c79fff14c21d6098f178
+   > Blocks: 2            Seconds: 133
+   > contract address:    0xD253e54c31a13c5970a098D539e4B32482D08C69
+   > block number:        12203710
+   > block timestamp:     1650281030
+   > account:             0x4f7959a3191e2505275c8b16c6228A64D3178bbE
+   > balance:             0.870017678709056304
+   > gas used:            248204 (0x3c98c)
+   > gas price:           32.934909038 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008174576162867752 ETH
+
+   Pausing for 2 confirmations...
+
+   -------------------------------
+   > confirmation number: 1 (block: 12203712)
+   > confirmation number: 2 (block: 12203713)
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.008174576162867752 ETH
+
+
+2_Tokens.js
+===========
+
+   Deploying 'StakeToken'
+   ----------------------
+   > transaction hash:    0xbaf3b1e61f879e15a4f5d530283b71fb6c55c75f3325b6fbeb9bd30a799f122b
+   > Blocks: 1            Seconds: 213
+   > contract address:    0xb7EDBCa95a0Eb1B894ce988eF03e4aDF68735044
+   > block number:        12203715
+   > block timestamp:     1650281269
+   > account:             0x4f7959a3191e2505275c8b16c6228A64D3178bbE
+   > balance:             0.810374828515019322
+   > gas used:            1351306 (0x149e8a)
+   > gas price:           42.800922536 gwei
+   > value sent:          0 ETH
+   > total cost:          0.057837143428432016 ETH
+
+   Pausing for 2 confirmations...
+
+   -------------------------------
+   > confirmation number: 1 (block: 12203716)
+   > confirmation number: 2 (block: 12203717)
+
+   Deploying 'RewardToken'
+   -----------------------
+   > transaction hash:    0x212b34e59889c90a07608cbfa1718eed861df2cf13e9937107880c8a3cc8d917
+   > Blocks: 2            Seconds: 181
+   > contract address:    0x75128b3F91ECEdF6d63b14d2Bd1178bDa8eAdB2D
+   > block number:        12203720
+   > block timestamp:     1650281689
+   > account:             0x4f7959a3191e2505275c8b16c6228A64D3178bbE
+   > balance:             0.720979887167479578
+   > gas used:            1628062 (0x18d79e)
+   > gas price:           54.908806512 gwei
+   > value sent:          0 ETH
+   > total cost:          0.089394941347539744 ETH
+
+   Pausing for 2 confirmations...
+
+   -------------------------------
+   > confirmation number: 1 (block: 12203721)
+   > confirmation number: 2 (block: 12203722)
+
+   Deploying 'stakeReward'
+   -----------------------
+   > transaction hash:    0x765c45f4a98e2c7612b405c3f050f4fe38376b813431c330f17d68716dd95339
+   > Blocks: 1            Seconds: 13
+   > contract address:    0x57Fa71813Ea91CFF74b67C0F3122136E3103230A
+   > block number:        12203723
+   > block timestamp:     1650281842
+   > account:             0x4f7959a3191e2505275c8b16c6228A64D3178bbE
+   > balance:             0.637133775150961314
+   > gas used:            1452522 (0x1629ea)
+   > gas price:           57.724504012 gwei
+   > value sent:          0 ETH
+   > total cost:          0.083846112016518264 ETH
+
+   Pausing for 2 confirmations...
+
+   -------------------------------
+
+
+https://ropsten.etherscan.io/address/0xb7EDBCa95a0Eb1B894ce988eF03e4aDF68735044#code
+https://ropsten.etherscan.io/address/0x75128b3F91ECEdF6d63b14d2Bd1178bDa8eAdB2D#code
